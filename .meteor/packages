@@ -19,3 +19,10 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
+
+# Additional packages
+session                 # Allow for Session variable to be used
+iron:router             # Routing views
+mizzao:timesync         # Syncing client and server time stamps
+momentjs:moment         # Moment for time parsing
+mrt:cron-tick           # Cron job for meteor
